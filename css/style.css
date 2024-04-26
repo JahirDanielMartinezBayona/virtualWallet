@@ -1,0 +1,12 @@
+.footer{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+.footer__ul{
+    display: flex;
+    flex-direction: row;
+}
+.footer__ul li{
+    display: flex;
+}
