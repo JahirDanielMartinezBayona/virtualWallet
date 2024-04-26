@@ -1,0 +1,7 @@
+:root{
+    --color-1: #33404F;
+}
+@font-face {
+    font-family: "EncodeSans-Regular";
+    src: url("../storage/font/encode-sans/EncodeSans-Regular.ttf");
+}
