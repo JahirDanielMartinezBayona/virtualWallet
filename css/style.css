@@ -24,6 +24,26 @@ body{
     flex-direction: row;
     align-items: center;
 }
+.section__header{
+    display: flex;
+    flex-direction: row;
+}
+.section__progress__bar{
+    background-color: white;
+    width: 150px;
+    height: 5px;
+}
+.section__progress__bar .current__progress__savings{
+    background-color: #00DDA3;
+    width: 80%;
+    height: 5px;
+}
+.section__progress__bar .current__progress__assets{
+    background-color: #B5C5C3;
+    width: 20%;
+    height: 5px;
+}
+
 .footer{
     position: fixed;
     width: 100%;
