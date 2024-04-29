@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header__nav{
+    background: var(--color-1);;
+}
 .footer{
     position: fixed;
     width: 100%;
