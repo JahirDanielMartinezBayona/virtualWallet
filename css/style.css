@@ -9,9 +9,6 @@
     display: flex;
     flex-direction: row;
 }
-.header__menu{
-    float: right;
-}
 .footer{
     position: fixed;
     width: 100%;
