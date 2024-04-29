@@ -27,6 +27,7 @@ body{
 .section__header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .section__progress__bar{
     background-color: white;
