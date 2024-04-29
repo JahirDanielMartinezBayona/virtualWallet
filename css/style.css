@@ -2,7 +2,11 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "SF-Pro-Text-Regular";
     box-sizing: border-box;
+}
+body{
+    background: url("../storage/img/background-index.svg");
 }
 .header__nav{
     background: var(--color-1);
