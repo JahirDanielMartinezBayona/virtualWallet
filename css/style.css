@@ -5,7 +5,12 @@
     box-sizing: border-box;
 }
 .header__nav{
-    background: var(--color-1);;
+    background: var(--color-1);
+    display: flex;
+    flex-direction: row;
+}
+.header__menu{
+    float: right;
 }
 .footer{
     position: fixed;
