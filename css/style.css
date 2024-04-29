@@ -6,18 +6,20 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("data:image/svg+xml,../storage/img/background-index.svg");
-    width: 100%;
-    height: 100%;
+    background-color: var(--color-1);
+    /* width: 100%;
+    height: 100%; */
 }
 .header__nav{
     background: var(--color-1);
+    color: var(--color-2);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 .header__home{
+    color: var(--color-2);
     display: flex;
     flex-direction: row;
     align-items: center;
