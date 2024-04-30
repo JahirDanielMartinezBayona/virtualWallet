@@ -80,6 +80,20 @@ body{
     overflow-y: scroll;
 }
 
+.info_transaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info_transaction .tracked_transaction{
+    display: flex;
+    flex-direction: row;
+}
+
+.info_transaction_detailed{
+    /* flex-direction: column; */
+}
+
 .section_menu_activities{
     display: flex;
     flex-direction: row;
