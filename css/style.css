@@ -53,8 +53,22 @@ body{
     background-color: var(--color-2);
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-}
 
+}
+.main_section_activities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main_section_activities > article{
+    width: 60px;
+    height: 60px;
+}
+.main_section_activities img{
+    width: 20px;
+    height: 20px;
+}
 .footer{
     position: fixed;
     width: 100%;
