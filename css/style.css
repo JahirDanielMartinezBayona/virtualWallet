@@ -74,6 +74,12 @@ body{
     text-align: center;
 }
 
+.list_transactions{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
 .section_menu_activities{
     display: flex;
     flex-direction: row;
@@ -87,8 +93,8 @@ body{
     box-shadow: 2px 2px 2px 2px #33404F;
 }
 .section_menu_activities img{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 .footer{
     position: fixed;
