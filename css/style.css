@@ -11,7 +11,7 @@ body{
     height: 100%; */
 }
 .header{
-    height: 35vh;
+    height: 30vh;
 }
 .header__nav{
     background: var(--color-1);
