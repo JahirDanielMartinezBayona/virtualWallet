@@ -44,6 +44,11 @@ body{
     width: 20%;
     height: 5px;
 }
+.main{
+    height: 65vh;
+    width: 100%;
+    background-color: var(--color-2);
+}
 
 .footer{
     position: fixed;
