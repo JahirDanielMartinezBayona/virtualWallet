@@ -26,13 +26,14 @@
     overflow-x: scroll;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
     flex-direction: row;
-    height: 230px;
+    height: 320px;
+    margin-left: 20px;
 }
 .card_list .card__general{
-    height: 200px;
-    width: 250px;
+    height: 300px;
+    width: 230px;
     border-radius: 8px;
     display: flex;
     align-items: center;
