@@ -22,6 +22,24 @@
     flex-direction: row;
     align-items: center;
 }
+.card_list{
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+    height: 230px;
+}
+.card_list .card__general{
+    height: 200px;
+    width: 250px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.card__general{
+    background-color: var(--color-1);
+}
 .footer{
     position: fixed;
     width: 100%;
