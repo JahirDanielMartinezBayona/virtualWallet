@@ -18,7 +18,6 @@ body,html{
     height: 30vh;
 }
 .header__nav{
-    background: var(--color-1);
     color: var(--color-2);
     display: flex;
     flex-direction: row;
