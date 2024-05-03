@@ -54,7 +54,7 @@
     width: fit-content;
 }
 .investing_information .investing_information_content .space_icon{
-    background-color: #E1FFEF;
+    background-color: var(--color-5);
     width: 45%;
     height: 21vh;
     border-top-right-radius: 70px;
