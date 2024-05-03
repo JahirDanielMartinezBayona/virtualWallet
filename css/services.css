@@ -28,12 +28,44 @@
     justify-content: center;
 }
 .investing_information .investing_information_content{
-    width: 50vw;
-    height: 20vh;
+    width: 85vw;
+    height: 21vh;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 10px;
+    display: flex;
     box-shadow: 2px 2px 2px 2px #33404F;
+}
+.investing_information .investing_information_content .information_bitcoin{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.information_bitcoin > h5{
+    color: #B5C5C3;
+}
+.information_bitcoin > button{
+    color: white;
+    background-color: var(--color-4);
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 13px;
+    padding-right: 13px;
+    width: fit-content;
+}
+.investing_information .investing_information_content .space_icon{
+    background-color: #E1FFEF;
+    width: 45%;
+    height: 21vh;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.investing_information .investing_information_content .space_icon img{
+    width: 65%;
+    height: 90%;
 }
 .card_list{
     overflow-x: scroll;
@@ -41,11 +73,11 @@
     align-items: center;
     gap: 25px;
     flex-direction: row;
-    height: 320px;
+    height: 310px;
     margin-left: 20px;
 }
 .card_list .card__general{
-    height: 300px;
+    height: 290px;
     width: 230px;
     border-radius: 8px;
     display: flex;
