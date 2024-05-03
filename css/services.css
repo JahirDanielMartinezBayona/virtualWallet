@@ -22,6 +22,10 @@
     flex-direction: row;
     align-items: center;
 }
+.investing_information .investing_information_content{
+    width: 20vw;
+    height: 30vh;
+}
 .card_list{
     overflow-x: scroll;
     display: flex;

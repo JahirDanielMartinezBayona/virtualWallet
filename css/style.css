@@ -28,6 +28,9 @@ body,html{
 .header__article{
     padding-bottom: 30px;
 }
+.header__article .header__main__information{
+    padding-left: 30px;
+}
 .header__article .header__main__information h1{
     font-size: 30px; 
 }
@@ -45,11 +48,18 @@ body,html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.section__header .showing_balance{
+    display: flex;
+    flex-direction: row;
 }
 .section__progress__bar{
     background-color: white;
     width: 150px;
     height: 5px;
+    border-radius: 15px;
 }
 .section__progress__bar .current__progress__savings{
     background-color: #00DDA3;
@@ -111,8 +121,14 @@ body,html{
     display: flex;
     flex-direction: row;
 }
-.info_transaction .tracked_transaction .transaction_time{
-    
+.info_transaction .tracked_transaction .info_transaction_detailed h6{
+    color: #B5C5C3;
+}
+.info_transaction .transaction_time{
+    text-align: right;
+}
+.info_transaction .transaction_time h6{
+    color: #B5C5C3;
 }
 .info_transaction .tracked_transaction img{
     width: 40px;
